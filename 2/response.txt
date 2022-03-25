@@ -1,0 +1,18 @@
+HTTP/2 200 OK
+Server: nginx
+Date: Tue, 02 Nov 2021 09:54:26 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000
+Content-Length: 30
+
+You will be forwarded to ...
+<script>
+   var loc = "https://test.somesite.com/answers"
+   document.location = loc
+</script>

@@ -1,0 +1,13 @@
+GET /users/getaccount/myaccount?filter=&p=1&canary0123zxczxc=123123testtest HTTP/2
+Host: somesite.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
+Accept: application/json, text/plain, */*
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Sec-Ch-Ua: ";Not A Brand";v="99", "Chromium";v="94"
+Accept: application/json, text/plain, /
+X-Forwarded-For: https://test.somesite.com/answers
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEyMzEiLCJyb2xlIjoidXNlciIsInVzZXJuYW1lIjoiam9obiIsImVtYWlsIjoiam9obkBleGFtcGxlLmNvbSJ9.o5mMKlxzCDkOMMdgkMr07uyURz7ZuNYj1t4UXj_YZ3M
+Origin: https://test.somesite.com
+Connection: close
+Referer: https://test.somesite.com/pools
