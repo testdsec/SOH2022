@@ -1,0 +1,32 @@
+POST /restore-password/restore?step=1 HTTP/2
+Host: example.com
+Cookie: ck=ZXdIB08AlUION6I9dHEcIf8dcrkGXoGZs2MUdlvEIR0NQjTIZ1PlwELeRf
+Content-Type: application/json
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,br
+Content-Length: 25
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4512.0 Safari/537.36
+
+{”email”:”user@test.com”}
+
+POST /restore-password/restore?step=2 HTTP/2
+Host: example.com
+Cookie: ck=ZXdIB08AlUION6I9dHEcIf8dcrkGXoGZs2MUdlvEIR0NQjTIZ1PlwELeRf
+Content-Type: application/json
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,br
+Content-Length: 17
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4512.0 Safari/537.36
+
+{”email”:”user@test.com”,”code”:”321641”}
+
+POST /restore-password/restore?step=3 HTTP/2
+Host: example.com
+Content-Type: application/json
+Cookie: ck=ZXdIB08AlUION6I9dHEcIf8dcrkGXoGZs2MUdlvEIR0NQjTIZ1PlwELeRf
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,br
+Content-Length: 48
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4512.0 Safari/537.36
+
+{“password”:”mys3cPWD”,”email”:”user@test.com”}
